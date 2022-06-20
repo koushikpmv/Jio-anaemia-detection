@@ -119,10 +119,10 @@ body
     color: white;
     border-style: outset;
     border-radius: 10%;
-    height: 30px;
-    width: 75px;
+    width: fit-content;
     text-shadow: none;
-    margin-left: 50%;
+    margin-left: 46%;
+    margin-right: 44%;
     margin-top: 1%;
     cursor: pointer;
 }

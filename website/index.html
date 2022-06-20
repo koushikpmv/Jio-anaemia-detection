@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-invasive detection of Anaemia</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box0">
+    <header>
+        <div class = "logo">
+            <img src="JioHealthHub-Logo (1).webp">
+        </div>
+    </header>
+    <header>
+        <div class = "title">
+            <h1>
+                Non-Insvasive detection of Anaemia
+            </h1>
+        </div>
+    </header>
+    <section>
+        <div class="box1">
+            <div class="row">
+                <div class="a">
+                    <label for="fname">Haemoglobin (Hb) Level:</label>
+                </div>
+                <div class="b">
+                    <input type="text" id="fname" name="Haemoglobin (Hb) Level" placeholder="Enter Hb Level..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="a">
+                    <label for="fname">Age:</label>
+                </div>
+                <div class="b">
+                    <input type="text" id="fname" name="Age" placeholder="Enter Age..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="a">
+                    <label for="fname">Gender:</label>
+                </div>
+                <div class="b">
+                    <input type="radio" name="Gender" value="Male">Male
+                    <input type="radio" name="Gender" value="Female">Female
+                    <input type="radio" name="Gender" value="Other">Other
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <hr/>
+    <section>
+        <div class="box2">
+            
+            <div class="conditions">
+                <h4>Things to be taken care of</h4>
+                <ul>
+                    <li>Select a place where there is sufficient lighting.</li>
+                    <li>Do not take photo with flash.</li>
+                    <li>Do not apply any filters to the image.</li>
+                </ul>
+            </div>
+            <div class="conjunctiva-image">
+                <img src="conjunctiva.png">
+            </div>
+        </div>
+    </section>
+    <hr/>
+    <section>
+        <h4 id="capture-instructions">How to capture the image</h4>
+        <div class="box3">
+            <div class="eye-image-box">
+                <div class="imageinsert">
+                    <h4>
+                        Image of eyes (containing palpebral conjunctiva)
+                    </h4>
+                    <h5>
+                        Using mobile camera
+                    </h5>
+                    <ul>
+                        <li>Place one of your fingers under your lower eyelid and gently drag it down. </li>
+                        <li> Using rear camera, ask someone to hold the phone such that the palpebral conjunctiva (<b>Red</b> colour part of lower eyelid) is clearly visible and then capture the image. </li>
+                        <li> If using rear camera is not possible, you can capture the image with the front camera.</li>
+                        <li> Repeat the same process and capture the image of other eye also. </li>
+                        <li>Crop the images such that they look like below pictures.</li>
+                    </ul>
+                </div>
+                <div class = "pictures">
+                    <img src="Web capture_18-6-2022_161454_.jpeg">
+                    <img src="Web capture_18-6-2022_161435_.jpeg">
+                </div>
+                <div class="insert-btn">
+                    <input type="file" id="actual-btn" hidden/>
+                    <label for="actual-btn">Insert Images</label>
+                </div>
+            </div>
+            <div class="fingernails-box">
+                <h4>Image of fingernails</h4>
+                <ul>
+                    <li>Curl your fingers in a line and with the other hand capture the image.</li>
+                    <li>Crop the image such that it looks like below picture.</li>
+                </ul>
+                <div class="fingernails">
+                    <img src="fingernails.jpg">
+                </div>
+                <div class="btn">
+                    <div class="insert-btn">
+                        <input type="file" id="actual-btn" hidden/>
+                        <label for="actual-btn">Insert Images</label>
+                    </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <div class="submit">
+            <input type="submit" id="submit-btn" value="Submit"/>
+        </div>
+    </section>
+</body>
+</html>
